@@ -10,7 +10,7 @@ let window: any;
 export class PageBuilderComponent implements OnInit {
 
   ngOnInit(): void {
-    window.pages = new FroalaPages({ key: "" });
+    window.pages = new FroalaPages("#frolaPages", { key: "" });
   }
 };
 
